@@ -9,6 +9,7 @@ import daimond from "..//../public/images/projects/daimond.jpg"
 import flightpp from "..//../public/images/projects/flight.png"
 import bigmart from "..//../public/images/projects/bigmart1.png"
 import bhp from "..//../public/images/projects/bhp2.png"
+import airbnb from "..//../public/images/projects/Airbnb-Logo.jpg
 
 import Image from 'next/image'
 import Link from 'next/link'
@@ -126,7 +127,7 @@ const projects = () => {
                         predictions while analysing area, bedrooms, and bathrooms across a vast dataset of 13,000+ entries.
                         Implemented the entire project lifecycle, including data refinement, feature enhancement, machine learning model creation, 
                         and deployment as a user-friendly Flask application on AWS, enabling streamlined house price predictions."
-                        link="https://github.com/Mouli322/Real-Estate-Price-Prediction/blob/main/Real_Estate_Price_Prediction.ipynb"
+                        link="https://real-estate-price-prediction.streamlit.app/"
                         github="https://github.com/Mouli322/Real-Estate-Price-Prediction/blob/main/Real_Estate_Price_Prediction.ipynb"
                         />     
                     </div>
@@ -144,17 +145,14 @@ const projects = () => {
                         />  
                     </div>
                     <div className='col-span-12'>
-                    <FeaturedProject 
-                        title="Bank Term Deposit"
-                        img={bankterm}
-                        summary="Utilized Python and diverse machine learning techniques to achieve 96% accurate customer enrollment forecasting on a 
-                        10,000-record dataset, enhancing data-driven decision-making.
-                        Supervised project phases, including feature selection, Excel data analysis, and advanced predictive modeling, achieving 
-                        96% accuracy in predicting customer subscription behavior."
-                        link="https://github.com/Mouli322/Bank-Term-Deposit/blob/main/Bank%20Term%20Deposit%20.ipynb"
-                        github="https://github.com/Mouli322/Bank-Term-Deposit/blob/main/Bank%20Term%20Deposit%20.ipynb"
+                    <FeaturedProject
+                        title ='AirBnB Booking Analysis'
+                        img = {airbnb}
+                        summary=""
+                        link=''
+                        github=''
                         type="Featured Project"
-                        />  
+                        />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                     <Project 
@@ -173,7 +171,19 @@ const projects = () => {
                         img={flightpp}
                         link="https://github.com/Mouli322/Flight-Fare-Prediction"
                         github="https://github.com/Mouli322/Flight-Fare-Prediction"
-                    
+                        />  
+                    </div>
+                     <div className='col-span-12'>
+                    <FeaturedProject 
+                        title="Bank Term Deposit"
+                        img={bankterm}
+                        summary="Utilized Python and diverse machine learning techniques to achieve 96% accurate customer enrollment forecasting on a 
+                        10,000-record dataset, enhancing data-driven decision-making.
+                        Supervised project phases, including feature selection, Excel data analysis, and advanced predictive modeling, achieving 
+                        96% accuracy in predicting customer subscription behavior."
+                        link="https://github.com/Mouli322/Bank-Term-Deposit/blob/main/Bank%20Term%20Deposit%20.ipynb"
+                        github="https://github.com/Mouli322/Bank-Term-Deposit/blob/main/Bank%20Term%20Deposit%20.ipynb"
+                        type="Featured Project"
                         />  
                     </div>
                 </div>
