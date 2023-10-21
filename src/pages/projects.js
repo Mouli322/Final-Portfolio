@@ -9,7 +9,7 @@ import daimond from "..//../public/images/projects/daimond.jpg"
 import flightpp from "..//../public/images/projects/flight.png"
 import bigmart from "..//../public/images/projects/bigmart1.png"
 import bhp from "..//../public/images/projects/bhp2.png"
-import airbnb from "..//../public/images/projects/Airbnb-Logo.jpg
+import airbnb from "..//../public/images/projects/Airbnb-Logo.jpg"
 
 import Image from 'next/image'
 import Link from 'next/link'
