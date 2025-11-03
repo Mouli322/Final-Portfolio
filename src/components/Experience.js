@@ -42,6 +42,12 @@ const Experience = () => {
       className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light 
       md:w-[2px] md:left-[30px] xs:left-[20px]' />
         <ul className='w-full flex flex-col items-start text-justify justify-between ml-4 xs:ml-2'>
+         <Details position="Senior Systems Engineer"
+            company="Cognizant Technology Solutions"
+            time="July 2024 - Present"
+            work = "Experienced IT Operations and Scheduling Analyst with a strong background in supporting and administering Control-M and VTOM tools. Proven expertise in managing and resolving P1, P2, P3 incidents, performing root cause analysis, and providing end-to-end support for job scheduling environments. Adept at handling Control-M agent/server issues, collaborating in real-time bridge calls, and fulfilling service management requests including RITMs and CTASKs.Known for a proactive approach, strong problem-solving skills, and the ability to thrive in fast-paced, high-pressure production environments."
+            />
+              
           <Details 
           position="Data Science Intern"
           company="Innomatics Research Labs"
